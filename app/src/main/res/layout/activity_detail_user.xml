@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.User.UserAndAdmin.DetailUserActivity">
+    <TextView
+        android:id="@+id/lblhead"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="informations d'utillisateur"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/mekka"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="80dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/user_icon"
+                android:id="@+id/pdpImageViewUser"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detailnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailprenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prenom :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detailprenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetaildaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date de naissance :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detaildaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailsexe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genre : "
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/saykes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailcin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cin"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/ciyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailrole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Role :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/rowl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.Admin.TirageDetailsActivity">
+
+    <TextView
+        android:id="@+id/lblconnection"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Details du Tirage"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/mekka"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailnbrt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre a Retenir :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detailnbrt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailnbat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre a mettre en attente :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detailnbat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetailres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Responsables :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detailres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetaillieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lieu : "
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detaillieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/lbldetaildate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date du tirage :"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/detaildate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

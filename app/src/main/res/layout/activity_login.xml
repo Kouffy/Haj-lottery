@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/lblconnection"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Connection"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/mekka"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/lblemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email ou login"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/lblpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btnconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="#fafafa"
+        android:onClick="loginClick"/>
+    <TextView
+        android:id="@+id/lblcandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="je suis un candidat"
+        android:gravity="center_horizontal"
+        android:onClick="navToLoginCandidat"/>
+
+
+
+</LinearLayout>

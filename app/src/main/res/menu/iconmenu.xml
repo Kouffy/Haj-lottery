@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/HomeAd"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="Tableau de bord">
+</item>
+    <item android:id="@+id/Profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Mon profile">
+    </item>
+    <item android:id="@+id/ListeTirage"
+        android:icon="@drawable/ic_action_name"
+        android:title="Liste des tirages">
+    </item>
+    <item android:id="@+id/ListeUsers"
+        android:icon="@drawable/ic_action_name"
+        android:title="LIste des utilisateurs">
+    </item>
+    <item android:id="@+id/AddUser"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Ajouter un utilisateur">
+    </item>
+    <item android:id="@+id/AddTirage"
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        android:title="Nouveau Tirage">
+    </item>
+    <item android:id="@+id/EtatIns"
+        android:icon="@drawable/ic_radio_button_checked_black_24dp"
+        android:title="Etat des inscriptions">
+    </item>
+    <item android:id="@+id/Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Deconnection">
+    </item>
+</menu>

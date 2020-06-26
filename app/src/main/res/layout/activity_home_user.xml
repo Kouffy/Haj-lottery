@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".Views.Admin.HomeAdminActivity"
+    tools:openDrawer="start">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/admtoolbar"
+            app:title="Habous Application"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@color/cardview_light_background">
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/admtoolbar"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lblconnection"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="Accueil Circonscripteur"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:paddingVertical="70dp"
+                android:textSize="30sp"
+                android:fontFamily="cursive"
+                android:background="@drawable/mekka"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                />
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="80dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/home"
+                android:id="@+id/homeimg"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navmenu"
+        app:menu="@menu/iconmenu2"
+        app:headerLayout="@layout/navadmheader"
+        android:layout_gravity="start"
+        ></com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

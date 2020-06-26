@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Views.Admin.RegisterActivity">
+
+    <TextView
+        android:id="@+id/lblnewuser"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/mekka"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:paddingVertical="70dp"
+        android:text="Ajouter un utilisateur"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/user_icon"
+        android:id="@+id/pdpImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"  />
+
+    <TextView
+        android:id="@+id/pdptextview"
+        android:hint="Selectionner une image"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="120dp"
+    android:layout_marginBottom="25dp"
+    android:id="@+id/btnPdp"
+    android:backgroundTint="@color/colorPrimary"
+    android:text="Galerie"
+    android:textColor="@android:color/white"
+    android:textSize="20sp"></Button>
+
+
+    <TextView
+        android:id="@+id/lblnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/lblprenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prenom"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+    android:id="@+id/txtprenom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/lbldatenaiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selectionner une date de naissance"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtdatenaiss"
+        android:hint="Double click pour selectionner "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView    android:id="@+id/lblsexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/genre"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/genrespin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/lblcin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cin"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtcin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/lblrole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/role"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/txtrole"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/lbllogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/lblpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btninscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="#fafafa"
+        android:onClick="registerClick"/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/HomeUs"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Tableau de bord">
+    </item>
+    <item android:id="@+id/Profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Mon profile">
+    </item>
+    <item android:id="@+id/ListeCandidat"
+        android:icon="@drawable/ic_action_name"
+        android:title="Liste desCandidats">
+    </item>
+    <item android:id="@+id/NewCandidat"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Nouvelle Candidature Individuelle">
+    </item>
+    <item android:id="@+id/NewCandidatg"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:title="Nouvelle Candidature Groupée">
+    </item>
+    <item android:id="@+id/Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Deconnection">
+        </item>
+</menu>

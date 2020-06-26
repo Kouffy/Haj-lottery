@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/lblconnection"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Vos documents"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/mekka"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/lbldocs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="votre cin :"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <ImageView
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/docCinView"
+        android:src="@drawable/user_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/lbldocs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="votre passport :"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+    <ImageView
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/docPassView"
+        android:src="@drawable/user_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

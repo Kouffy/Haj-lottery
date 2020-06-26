@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.Candidat.CandidatLoginActivity">
+    <TextView
+        android:id="@+id/lblconnection"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Connection"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/mekka"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scanner Votre Code QR"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="#fafafa"
+        />
+    <TextView
+        android:id="@+id/lblcandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ou bien"
+        android:gravity="center_horizontal"
+        android:onClick="navToLoginCandidat"/>
+    <TextView
+        android:id="@+id/lblCodeCandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter votre code"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/txtCodeCandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btn_LoginCandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="#fafafa"
+        android:onClick="login"
+        />
+
+
+</LinearLayout>
